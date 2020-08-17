@@ -148,3 +148,25 @@ You are provided with the following files.
     std::chrono​ library from C++11. It is used by ​subsequence_timing.cpp​.
 4. Makefile​, ​subsequence_test.cpp​, ​rubrictest.hpp​, and ​README.md​ work the
     same way as in Project 1.
+
+## What to Do
+
+Decide on who will be in your team, or decide to work alone; have one of your team members accept the
+GitHub assignment by following the invitation link; have any other team members join your team by
+following the invitation link; and add your group member names to ​README.md​.
+Then, implement each of the two algorithms in C++ using the provided skeleton code. Test your code using
+the provided unit tests.
+Once you are confident that your algorithm implementations are correct, do the following for each of the two
+algorithms:
+
+1. Analyze your pseudocode mathematically and write its efficiency class using Big-Oh notation. (You
+    need to compute the total number of steps of the algorithm.)
+2. Gather empirical timing data by running your implementation for various values of _n_. As discussed
+    in class, you need enough data points to establish the shape of the best-fit curve (at least 5 data
+    points, maybe more), and you should use _n_ sizes that are large enough to produce large time values
+    (ideally multiple seconds or even minutes) that minimize instrumental error.
+3. Draw a scatter plot and fit line for your timing data. The instance size _n_ should be on the horizontal
+    axis and elapsed time should be on the vertical axis. Your plot should have a title; and each axis
+    should have a label and units of measure.
+4. Conclude whether or not your empirically-observed time efficiency data is consistent, or inconsistent,
+    with your mathematically-derived big- _O_ efficiency class.
